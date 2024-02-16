@@ -26,11 +26,10 @@ public class Payroll {
 			}
 		}
 		if (emptobeRemoved == null) {
-			System.out.println("id not found");
+			System.out.println("id not found, to remove from system");
 		} else {
 			employeeList.remove(emptobeRemoved);
 			System.out.println("Employee removed successfully");
-
 		}
 
 	}

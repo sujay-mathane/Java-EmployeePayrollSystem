@@ -15,6 +15,8 @@ public class Main {
 		payroll.addEmployee(jay);
 		payroll.addEmployee(mahesh);
 		payroll.displayAllEmployee();
+		payroll.removeEmployee(3);
+		payroll.displayAllEmployee();
 	}
 
 }
